@@ -6,7 +6,7 @@ Processor: i3-1125G4 (Tigerlake)
 Audio Controller: ALC3254
 Wi-Fi Device: Intel Wireless
 
-##How to use
+<h3>How to use</h3>
 
 STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux, GL)
 
