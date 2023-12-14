@@ -6,7 +6,8 @@ Processor: i3-1125G4 (Tigerlake)
 Audio Controller: ALC3254
 Wi-Fi Device: Intel Wireless
 
-##How to use##
+##How to use
+
 STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux, GL)
     1. Create regular MacOS installer on USB, https://support.apple.com/en-us/101578
     
@@ -20,7 +21,6 @@ STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux
         
     3. Locate EFI partition in Finder app, drag the EFI folder into the EFI partition
 
-
 STEP 2, Configuring Dell BIOS
 
     1. Disable Secure Boot in Boot Configuration
@@ -30,7 +30,6 @@ STEP 2, Configuring Dell BIOS
     3. Enable USB Boot Support under Integrated Devices, USB/Thunderbolt Configuration
     
     4. Enable Thunderbolt Boot Support under Integrated Devices
-
 
 STEP 3, BOOTING
 
