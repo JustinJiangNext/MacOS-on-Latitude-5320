@@ -5,6 +5,10 @@ For MacOS Sonoma 14.2 or later
 Processor: i3-1125G4 (Tigerlake)
 Audio Controller: ALC3254
 Wi-Fi Device: Intel Wireless
+<br>
+<br>
+Graphics won't work until someone builds the Xe/UHD 500 series drivers...
+https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2
 
 <h3>How to use</h3>
 
