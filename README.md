@@ -17,6 +17,7 @@ STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux
     a.) Go to terminal and run `diskutil list` to see all partitions(mounted and unmounted)
     
     b.) Copy your MacOS installer's EFI partition IDENTIFIER. First find your USB stick under `/dev/diskxx`, then locate the partition with TYPE NAME `EFI` and copy IDENTIFIER `diskxxsyy`
+
    
         <img width="561" alt="image" src="https://github.com/alders-lakes/MacOS-on-Latitude-5320/assets/101434885/cd760e55-6e8d-4cca-98d9-4b1e3f886ab6">
         For example, In this image, the USB Installer is mounted at `/dev/disk4`, and the EFI PARTITION IDENTIFIER is `disk4s1`. The `(external, physical)` label helps avoid accidently mounting an internal SSD's EFI partition.
