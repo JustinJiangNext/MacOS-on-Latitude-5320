@@ -1,16 +1,16 @@
 # MacOS-on-Latitude-5320
 MacOS, an user friendly posix operating system, now works on the Dell Latitude 5320. 
 
-For MacOS Sonoma 14.2 or later
-Processor: i3-1125G4 (Tigerlake)
-Audio Controller: ALC3254
+For MacOS Sonoma 14.2 or later<br>
+Processor: i3-1125G4 (Tigerlake)<br>
+Audio Controller: ALC3254<br>
 Wi-Fi Device: Intel Wireless
 <br>
 <br>
 Graphics won't work until someone builds the Xe/UHD 500 series drivers...
 https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2
 
-<h4>Current Status</h4> <br>
+<h4>Current Status</h4><br>
 Boots into MacOS Recovery Mode 
 
 <h3>How to use</h3>
@@ -40,8 +40,6 @@ STEP 2, Configuring Dell BIOS
 
 3. Enable USB Boot Support under Integrated Devices, USB/Thunderbolt Configuration
 
-4. Enable Thunderbolt Boot Support under Integrated Devices
-
 STEP 3, BOOTING
 
 1. Stick your installer USB into dell laptop once SHUTDOWN
@@ -52,7 +50,7 @@ STEP 3, BOOTING
     
     
 STEP 4,
- Boots into MacOS recovery mode, its possible to install with mouse and keyboard and update EFI folder later. 
+ Boots into MacOS recovery mode, its possible to install with mouse and keyboard and update EFI folder later. <br>
  Still working on trackpad and keyboard, so check back on this project later.....
      
     
