@@ -10,6 +10,9 @@ Wi-Fi Device: Intel Wireless
 Graphics won't work until someone builds the Xe/UHD 500 series drivers...
 https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2
 
+<h4>Current Status</h4> <br>
+Boots into MacOS Recovery Mode 
+
 <h3>How to use</h3>
 
 STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux, GL)
@@ -49,7 +52,7 @@ STEP 3, BOOTING
     
     
 STEP 4,
-
+ Boots into MacOS recovery mode, its possible to install with mouse and keyboard and update EFI folder later. 
  Still working on trackpad and keyboard, so check back on this project later.....
      
     
