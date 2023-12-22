@@ -3,14 +3,13 @@ MacOS, an user friendly posix operating system, now works on the Dell Latitude 5
 
 For MacOS Sonoma 14.2 or later<br>
 Processor: i3-1125G4 (Tigerlake)<br>
-Audio Controller: ALC3254<br>
-Wi-Fi Device: Intel Wireless
+Find more info at [Detailed hardware and software information](SPECIFICATIONS.md)
+
 <br>
-<br>
-Graphics won't work until someone builds the Xe/UHD 500 series drivers...
+Graphics won't work until someone builds the Xe/UHD 500 series drivers...<br>
 https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2
 
-<h4>Current Status</h4><br>
+<h4>Current Status</h4>
 Boots into MacOS Recovery Mode 
 
 <h3>How to use</h3>
