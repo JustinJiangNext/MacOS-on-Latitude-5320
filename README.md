@@ -10,7 +10,7 @@ Graphics won't work until someone builds the Xe/UHD 500 series drivers...<br>
 https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2
 
 <h4>Current Status</h4>
-Boots into MacOS Recovery Mode 
+Fully installable with no external peripherals
 
 <h3>How to use</h3>
 
@@ -49,8 +49,7 @@ STEP 3, BOOTING
     
     
 STEP 4,
- Boots into MacOS recovery mode, its possible to install with mouse and keyboard and update EFI folder later. <br>
- Still working on trackpad and keyboard, so check back on this project later.....
+ Install MacOS in recoverymode just as any regular Mac
      
     
     
