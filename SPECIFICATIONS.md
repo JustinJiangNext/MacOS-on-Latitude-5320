@@ -1,6 +1,6 @@
 <h1>Target device</h1>
 <h2>Software</h2>
-MacOS version: Sonoma 14.2 (Build: 23C64)<br>
+MacOS version: Sonoma 14.2.1 (Build: 23C71)<br>
 Dell Bios Version: 1.33.0<br>
 
 <h2>Hardware: Dell Latitude 5320</h2>
