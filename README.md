@@ -1,5 +1,6 @@
 # MacOS-on-Latitude-5320
-MacOS, an user friendly posix operating system, now works on the Dell Latitude 5320. 
+MacOS, an user friendly posix operating system, now works on the Dell Latitude 5320. <br>
+![Sonoma Hackintosh](https://github.com/JustinJiangNext/MacOS-on-Latitude-5320/assets/101434885/28ce9404-14a9-44b5-88ed-97305de2734f)
 
 For MacOS Sonoma 14.2 or later<br>
 Processor: i3-1125G4 (Tigerlake)<br>
