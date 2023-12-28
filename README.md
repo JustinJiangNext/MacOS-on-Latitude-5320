@@ -16,10 +16,11 @@ Fully installable with no external peripherals
 <h3>How to use</h3>
 
 STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux, GL)
+1. Format your drive to GPT
 
-1. Create regular MacOS installer on USB, https://support.apple.com/en-us/101578
+2. Create regular MacOS installer on USB, https://support.apple.com/en-us/101578
 
-2. Mount EFI partition of MacOS installer.
+3. Mount EFI partition of MacOS installer.
 
     a.) Go to terminal and run `diskutil list` to see all partitions(mounted and unmounted)
     
@@ -31,6 +32,8 @@ STEP 1, Create Bootable Device (Instruction for Mac users; For Windows and Linux
     c.) Run command `sudo diskutil mount <YOUR USB INSTALLER'S EFI PARTITION IDENTIFIER>`
     
 4. Locate EFI partition in Finder app, drag the EFI folder into the EFI partition
+
+Alternatively, you can use MBR and MS-DOS. Just put the EFI partition and the [`BaseSystem` folder](https://github.com/JustinJiangNext/BaseSystem) in the partition
 
 STEP 2, Configuring Dell BIOS
 
