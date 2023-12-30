@@ -12,44 +12,13 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-OLARILA-MOBILE500.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
 		<key>Patch</key>
-		<array>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Fix RTC _STA bug</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>oAqTU1RBUwE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>oAqRCv8L//8=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -553,7 +522,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v alcid=3 -igfxvesa watchdog=0 -vi2c-force-polling -wegnoegpu</string>
+				<string>-v -igfxvesa watchdog=0 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -606,7 +575,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02DQ8ZDML7H</string>
 			<key>SystemUUID</key>
-			<string>91D76D34-34DA-4132-A766-0BF2248DF382</string>
+			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -619,7 +588,7 @@
 			<key>ProcessorType</key>
 			<integer>1547</integer>
 			<key>ROM</key>
-			<data>RcHzozIh</data>
+			<data>ziqcGTrm</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -629,7 +598,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02DQ8ZDML7H</string>
 			<key>SystemUUID</key>
-			<string>91D76D34-34DA-4132-A766-0BF2248DF382</string>
+			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -642,11 +611,11 @@
 			<key>MLB</key>
 			<string>C02047306GUP8PG1H</string>
 			<key>ROM</key>
-			<data>RcHzozIh</data>
+			<data>ziqcGTrm</data>
 			<key>SystemSerialNumber</key>
 			<string>C02DQ8ZDML7H</string>
 			<key>SystemUUID</key>
-			<string>91D76D34-34DA-4132-A766-0BF2248DF382</string>
+			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -701,7 +670,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02DQ8ZDML7H</string>
 			<key>SystemUUID</key>
-			<string>91D76D34-34DA-4132-A766-0BF2248DF382</string>
+			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
