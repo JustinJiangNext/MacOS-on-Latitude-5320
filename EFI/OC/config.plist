@@ -104,7 +104,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Base</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -122,7 +122,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Base</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -138,9 +138,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string>Battery</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -158,7 +176,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -176,7 +194,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -194,7 +212,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -212,7 +230,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -230,7 +248,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>WIFI</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -248,7 +266,7 @@
 				<key>BundlePath</key>
 				<string>USBMap.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>mic/cam/btooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -266,7 +284,7 @@
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>mic/cam/btooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -284,11 +302,47 @@
 				<key>BundlePath</key>
 				<string>XHCI-unsupported.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>mic/cam/btooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelBluetoothFirmware.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -339,7 +393,7 @@
 			<key>DisableRtcChecksum</key>
 			<true/>
 			<key>ExtendBTFeatureFlags</key>
-			<false/>
+			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>ForceAquantiaEthernet</key>
@@ -357,7 +411,7 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<false/>
+			<true/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -509,8 +563,6 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>Ag==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -573,20 +625,20 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DQ8ZDML7H</string>
+			<string>C02CQLZUML7H</string>
 			<key>SystemUUID</key>
-			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
+			<string>D17BA6EB-E8B1-4267-862F-88BFB6F784C3</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<true/>
+			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02047306GUP8PG1H</string>
+			<string>C02020609CDP8PGUE</string>
 			<key>ProcessorType</key>
-			<integer>1547</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>ziqcGTrm</data>
 			<key>SpoofVendor</key>
@@ -596,9 +648,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DQ8ZDML7H</string>
+			<string>C02CQLZUML7H</string>
 			<key>SystemUUID</key>
-			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
+			<string>D17BA6EB-E8B1-4267-862F-88BFB6F784C3</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -609,22 +661,22 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f////wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02047306GUP8PG1H</string>
+			<string>C02020609CDP8PGUE</string>
 			<key>ROM</key>
 			<data>ziqcGTrm</data>
 			<key>SystemSerialNumber</key>
-			<string>C02DQ8ZDML7H</string>
+			<string>C02CQLZUML7H</string>
 			<key>SystemUUID</key>
-			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
+			<string>D17BA6EB-E8B1-4267-862F-88BFB6F784C3</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>05/21/2022</string>
+			<string>10/05/2023</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1916.0.3.0.0</string>
+			<string>2020.41.1.0.0</string>
 			<key>BoardAssetTag</key>
 			<string></string>
 			<key>BoardLocationInChassis</key>
@@ -634,7 +686,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-5F9802EFE386AA28</string>
 			<key>BoardSerialNumber</key>
-			<string>C02047306GUP8PG1H</string>
+			<string>C02020609CDP8PGUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -644,7 +696,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02DQ8ZDML7H</string>
+			<string>C02CQLZUML7H</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -656,7 +708,7 @@
 			<key>PlatformFeature</key>
 			<integer>58</integer>
 			<key>ProcessorType</key>
-			<integer>1547</integer>
+			<integer>0</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
@@ -668,9 +720,9 @@
 			<key>SystemSKUNumber</key>
 			<string></string>
 			<key>SystemSerialNumber</key>
-			<string>C02DQ8ZDML7H</string>
+			<string>C02CQLZUML7H</string>
 			<key>SystemUUID</key>
-			<string>0A7AB289-BA89-45EF-91BC-40C07F193AE6</string>
+			<string>D17BA6EB-E8B1-4267-862F-88BFB6F784C3</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
