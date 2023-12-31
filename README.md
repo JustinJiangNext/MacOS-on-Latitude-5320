@@ -38,4 +38,4 @@ Maybe Grapics
 <h3>Installation</h3>
 There are multiple ways install<br>
 
-![Installation Guide](installation.md)
+[Installation Guide](installation.md)
